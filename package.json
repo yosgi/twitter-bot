@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node scripts/index.js",
+    "start:daily":"node daily/index.js ",
+    "test": "node ping.js",
+    "backTest": "node test/backTest.js"
+  },
+  "author": "yosgi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bluebird": "^3.3.1",
+    "ccxt": "^1.72.85",
+    "config": "^1.28.1",
+    "crypto-js": "^3.1.9-1",
+    "json-bigint": "^0.3.0",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.12.11",
+    "nodemon": "^2.0.7",
+    "pako": "^1.0.6",
+    "readline-sync": "^1.4.9",
+    "redis": "^3.1.2",
+    "request": "^2.72.0",
+    "twit": "^2.2.11",
+    "uuid": "^8.3.2",
+    "ws": "^3.2.0"
+  },
+  "execMap": {
+    "js": "node –harmony"
+  },
+  "devDependencies": {
+    "https-proxy-agent": "^5.0.0",
+    "jsdom": "^16.5.3",
+    "moment": "^2.29.1",
+    "tencentcloud-sdk-nodejs": "^4.0.128"
+  }
+}
